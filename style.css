@@ -19,7 +19,7 @@ input {
   outline: none;
 }
 
-/*Header*/
+/* Header */
 
 .header {
   width: 500px;
@@ -116,6 +116,8 @@ input {
 .task-row-wrapper__button:hover {
   color: #3a3a3a;
 }
+
+/* Incomplete item */
 
 .incomplete-tasks__item {
   overflow: hidden;
@@ -224,7 +226,7 @@ input {
   transform: rotateZ(0);
 }
 
-/* Completed */
+/* Completed item */
 
 .completed-tasks__item {
   overflow: hidden;
