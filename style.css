@@ -6,6 +6,21 @@ body {
   font-family: Lato, sans-serif;
 }
 
+ul {
+  margin: 0;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  outline: none;
+}
+
+/*Header*/
+
 .header {
   width: 500px;
   margin: 0 auto;
@@ -29,27 +44,13 @@ body {
 
 }
 
+/* Task list */
+
 .main-window {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-
-ul {
-  margin: 0;
-  padding: 0px;
-}
-
-li {
-  list-style: none;
-}
-
-input {
-  outline: none;
-}
-
-
-/* Task list */
 
 .title {
   color: #333;
